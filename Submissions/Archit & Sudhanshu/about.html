@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h1{color: white;text-align="center";}
+.top 
+             {
+            width: 100%;
+            height: 90px;
+            float: left;
+            background:#0c0032;
+/*            box-shadow: 2px 2px 10px 43px black;*/
+             }
+  
+       
+      ul {
+               list-style-type: none;
+               margin: 0;
+               padding: 0;
+         display: inline;
+
+           }
+    .logo
+          {
+            width: 90px;
+          height: 100%; 
+          }
+          ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+  margin-top: 25px; 
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #4207F2;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {background-color: #0C0032;}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-left: 100px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: # #002CFF;
+}
+</style>
+</head>
+<body>
+  <div class="top">
+ <ul>
+  
+  <li><a href="about.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+  <li><a href="JavaScript:newPopup('login.html');">Login/Signup</a></li>
+
+</ul> 
+<div class="logo">        
+        <img src="https://gdurl.com/Kp9V" width="90px" height="90px">        
+</div> 
+</div>
+
+<center><h1>"The Team" </h1></center>
+<br>
+<center>
+<div class="row" align="center">
+  <div class="column">
+    <div class="card">
+      <img src="https://gdurl.com/SF1K" alt="Archit Sharma" style="width:50%">
+      <div class="container">
+        <h1 style="color:white;">Archit Sharma</h2>
+        <p class="title">Devopler</p>
+        <p style="color:white;">Engineer hain yaar ;-; .</p>
+        <p style="color:white;">archit04.sharma@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column" align="center">
+    <div class="card">
+      <img src="https://gdurl.com/EH8S" alt="Sudhanshu Shridhar" style="width:50%">
+      <div class="container">
+        <h1 style="color:white;">Sudhanshu Shridhar</h2>
+        <p class="title">Developer</p>
+        <p style="color:white;">CS Tech </p>
+        <p style="color:white;">help.cstech@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+ </center>
+
+</body>
+</html>
