@@ -8,20 +8,38 @@ html{
 	width: 7%; height: 7%; margin-left: 80%;
 }
 .mainh{
-	font-size:60px; position:relative; text-align: center; margin-top: 0px; font-family: Helvetica, arial, sans-serif;padding-top: 30px; color: cyan;
+	font-size:60px; 
+	position:relative; 
+	text-align: center; 
+	margin-top: 0px; 
+	font-family: Helvetica, arial, sans-serif;
+	padding-top: 30px; 
+	text-decoration: underline;
+	color: cyan;
 }
-.div1{
-	text-align: center;
+.foot{
+
+}
+.foot2{
+display: inline;
+padding-left: 10%;
+padding-right: 10%;
 }
 #type{
 	color: #ffffff;
 	font-size: 25px;
 }
-#ajs{
-	margin-left: 46%;
+.butt{
+	margin-left: 14%;
+	margin-right: 10%;
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	font-size: 25px;
+	background-color: #545454;
+	cursor: pointer;
+	border-color: #545454;
+	box-shadow: grey;
+	color: white; 
 }
