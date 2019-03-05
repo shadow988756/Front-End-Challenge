@@ -8,8 +8,7 @@
 <body>
 	<h1 class="mainh">To-Do App</h1>
 	<button class="butt" id="ajs" onclick="push()";>New list</button>
-	<button class="butt" id="ajs" onclick="show()";> Display </button>
-
+	
 	<p id="type"></p>
 
 	<div class="div1">
@@ -23,9 +22,6 @@
 	function push() {
 		s = prompt("Enter new note", "start typing here");
 		arr.unshift(s);
-	}
-	function show(){
-			document.getElementById("type") = arr;
 	}
 	</script>
 
